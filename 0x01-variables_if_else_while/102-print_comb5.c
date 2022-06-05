@@ -15,6 +15,7 @@ int main(void)
 	int a = 0;
 	int b;
 	int com = 44;
+
 	while (a <= 99)
 	{
 		b = a + 1;
@@ -31,9 +32,9 @@ int main(void)
 				putchar(32);
 			}
 			b += 1;
-			a += 1;
 		}
+		a += 1;
+	}
 		putchar('\n');
 		return (0);
-	}
 }
