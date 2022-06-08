@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * _putchar -  enters c
  * main - prints array _putchar
  * Return: 0
  */
