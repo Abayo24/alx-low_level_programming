@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -6,7 +5,10 @@
  * Return: zero
  */
 
-Int _putchar(char c)
+Int main(char ch)
 {
-	Return (write(1, &c, 1);
+	char ch = '_putchar';
+	putchar(ch);
+
+	return (0);
 }
