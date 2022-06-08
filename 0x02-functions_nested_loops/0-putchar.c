@@ -2,6 +2,7 @@
 
 /**
  * _putchar -  enters c
+ * main - prints array _putchar
  * Return: 0
  */
 
@@ -11,7 +12,7 @@ int main(void)
 
 	int i;
 
-	for(i = 0; i < 8; i++)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(text[i]);
 	}
