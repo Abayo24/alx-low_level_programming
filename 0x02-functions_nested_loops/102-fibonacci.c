@@ -5,19 +5,24 @@
  * Return: 0(success)
  */
 
-int main()
+int main(void)
 {
-	int f0 = 1;
-	int f1 = 2;
-	int i;
-	int f2
+	unsigned long count, i, j, k;
 
-	for (i = 3; i <=50; i++)
+	i = 0;
+	j = 1;
+	for (count = 0; count < 50; count++)
 	{
-		printf("%d\n", f1);
-		f2 = f1 + f0;
-		f0 = f1;
-		f1 = f2;
+		k = i + j;
+		i = j;
+		j = k;
+		printf("%lu", k);
+		if (count == 49)
+			putchar('\n');
+		else
+		{
+			printf(", ");
+		}
 	}
 	return (0);
 }
