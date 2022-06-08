@@ -1,14 +1,22 @@
 #include "main.h"
 
 /**
- * _putchar enters c
- * Return: zero
+ * _putchar -  enters c
+ * Return: 0
  */
 
-void main()
+int main(void)
 {
-	char ch = '_putchar';
-	putchar(ch);
+	char text[8] = "_putchar";
+
+	int i;
+
+	for(i = 0; i < 8; i++)
+	{
+		_putchar(text[i]);
+	}
+	_putchar('\n');
 
 	return (0);
 }
+
