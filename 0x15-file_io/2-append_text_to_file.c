@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * append_text_to_file - that appends text at the end of a file
- * @filename: variable pointer
- * @text_content: content file
+ * append_text_to_file: function that appends text at the end of a file
+ * @filename: name of file
+ * @text_content: NULL terminated string
  * Description: function that appends text at the end of a file
  * Return: 1 on success, -1 on failure
  */
