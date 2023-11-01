@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * read_textfile - that reads a text file and prints
+ * read_textfile: reads a text file and prints
  * @filename: variable pointer
  * @letters: size letters
  * Description: Write a function that reads a text file and prints it
