@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 /**
- * _strncmp - compare two strings
+ * _strncmp: compares two strings
  * @s1: the first string
  * @s2: the second string
  * @n: the max number of bytes to compare
@@ -31,7 +31,7 @@ int _strncmp(const char *s1, const char *s2, size_t n)
 }
 
 /**
- * _close - close a file descriptor and print an error message upon failure
+ * _close: closes a file descriptor and print an error message upon failure
  * @fd: the file descriptor to close
  */
 
@@ -44,7 +44,7 @@ void _close(int fd)
 }
 
 /**
- * _read - read from a file and print an error message upon failure
+ * _read: reads from a file and print an error message upon failure
  * @fd: the file descriptor to read from
  * @buf: the buffer to write to
  * @count: the number of bytes to read
@@ -60,7 +60,7 @@ void _read(int fd, char *buf, size_t count)
 }
 
 /**
- * elf_magic - print ELF magic
+ * elf_magic: prints ELF magic
  * @buffer: the ELF header
  */
 
@@ -81,7 +81,7 @@ void elf_magic(const unsigned char *buffer)
 }
 
 /**
- * elf_class - print ELF class
+ * elf_class: prints ELF class
  * @buffer: the ELF header
  *
  * Return: bit mode (32 or 64)
@@ -106,7 +106,7 @@ size_t elf_class(const unsigned char *buffer)
 }
 
 /**
- * elf_data - print ELF data
+ * elf_data: prints ELF data
  * @buffer: the ELF header
  *
  * Return: 1 if big endian, otherwise 0
@@ -131,7 +131,7 @@ int elf_data(const unsigned char *buffer)
 }
 
 /**
- * elf_version - print ELF version
+ * elf_version: prints ELF version
  * @buffer: the ELF header
  */
 
@@ -146,7 +146,7 @@ void elf_version(const unsigned char *buffer)
 }
 
 /**
- * elf_osabi - print ELF OS/ABI
+ * elf_osabi: prints ELF OS/ABI
  * @buffer: the ELF header
  */
 
@@ -183,7 +183,7 @@ void elf_osabi(const unsigned char *buffer)
 }
 
 /**
- * elf_abivers - print ELF ABI version
+ * elf_abivers: prints ELF ABI version
  * @buffer: the ELF header
  */
 
@@ -193,7 +193,7 @@ void elf_abivers(const unsigned char *buffer)
 }
 
 /**
- * elf_type - print ELF type
+ * elf_type: prints ELF type
  * @buffer: the ELF header
  * @big_endian: endianness (big endian if non-zero)
  */
@@ -227,7 +227,7 @@ void elf_type(const unsigned char *buffer, int big_endian)
 }
 
 /**
- * elf_entry - print entry point address
+ * elf_entry - prints entry point address
  * @buffer: string containing the entry point address
  * @bit_mode: bit mode (32 or 64)
  * @big_endian: endianness (big endian if non-zero)

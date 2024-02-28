@@ -9,9 +9,9 @@
 #endif
 
 /**
- * main - check the code for Holberton School students.
+ * main - sophisticated.
  * @argc: name of my file
- * @argv: number of the letters that i used
+ * @argv: number of the letters used
  * Return: Always 0.
  */
 
